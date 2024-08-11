@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do list</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1 class="heading">Focus on <span>Today</span></h1>
+
+    <main>
+      <div class="container">
+        <h2>Today <img class="sun-icon" src="./images/sun-icon.svg" alt="sun-icon" /> <img class="sun-face-icon" src="./images/Sun-face.svg" alt="sun-icon"></h2>
+
+        <p class="motivation-quote"></p>
+        <div class="progress-bar">
+          <div class="progress-value">
+            <span class="progress-value-text"></span>
+          </div>
+        </div>
+
+        <p id="error-text">Please set all the 3 goals!</p>
+
+        <div class="goal goal-1">
+          <div class="checkbox"></div>
+          <input id="input-1" type="text" placeholder="Add new goal..." />
+        </div>
+
+        <div class="goal goal-2">
+          <div class="checkbox"></div>
+          <input id="input-2" type="text" placeholder="Add new goal..." />
+        </div>
+
+        <div class="goal goal-3">
+          <div class="checkbox"></div>
+          <input id="input-3" type="text" placeholder="Add new goal..." />
+        </div>
+
+        <p class="quote">“Keep Going, You’re making great progress!”</p>
+
+        <p class="creator">Made by Sunil Sharma</p>
+      </div>
+    </main>
+  </body>
+</html>
